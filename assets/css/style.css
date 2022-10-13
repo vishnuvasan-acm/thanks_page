@@ -1742,7 +1742,8 @@ nav .main-menu2 li a::before {
   }
 }
 .counter-area {
-  margin-top: -70px;
+  margin-top: -87px;
+  background-color: #fafafa;
 }
 @media (max-width: 991.98px) {
   .counter-area {
