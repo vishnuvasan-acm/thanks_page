@@ -645,6 +645,26 @@ nav .main-menu2 li a::before {
   transition: all 0.3s ease-in;
   border-radius: 8px;
 }
+.register-btn {
+  background: -webkit-linear-gradient(
+    293deg,
+    #e100ff 0%,
+    rgba(127, 0, 255, 0.99608) 100%
+  );
+  background: -o-linear-gradient(
+    293deg,
+    #e100ff 0%,
+    rgba(127, 0, 255, 0.99608) 100%
+  );
+  background: linear-gradient(
+    157deg,
+    #e100ff 0%,
+    rgba(127, 0, 255, 0.99608) 100%
+  );
+}
+.register-btn:hover {
+  background: transparent;
+}
 @media (max-width: 575.98px) {
   .btn1 {
     padding: 8px 25px;
