@@ -14,7 +14,7 @@
             onePage: false,
         });
         $(".counter").counterUp({ delay: 10, time: 1000 });
-        $(".countdown").downCount({ date: "10/21/2022 12:00:00", offset: +6 }, function () {
+        $(".countdown").downCount({ date: "11/01/2022 10:00:00", offset: +6 }, function () {
             console.log("Countdown done!");
         });
         $(".popup-link").magnificPopup({
