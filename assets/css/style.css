@@ -1622,7 +1622,7 @@ nav .main-menu2 li a::before {
 .hero-area {
   background: #fafafa;
   overflow: hidden;
-  padding-bottom: 160px;
+  padding-bottom: 25px;
   position: relative;
 }
 @media (max-width: 991.98px) {
