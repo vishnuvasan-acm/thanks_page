@@ -1001,6 +1001,9 @@ nav .main-menu2 li a::before {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.padding-top-50{
+  padding-top:50px;
+}
 .margin-top-10 {
   margin-top: 10px;
 }
