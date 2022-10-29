@@ -830,6 +830,28 @@ nav .main-menu2 li a::before {
     width: 100%;
   }
 }
+.padding-bottom-120 {
+        padding-bottom: 0px;
+    }
+    .video-icube{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .corner-container{
+        display: flex;
+        align-items: center;
+    }
+    @media only screen and (max-width: 1000px) {
+  .corner-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .padding-top-10 {
   padding-top: 10px;
 }
