@@ -105,6 +105,10 @@ nav .main-menu li {
   line-height: 1.7;
   z-index: 1;
 }
+.center-element{
+    display: flex;
+    justify-content: center;
+}
 @media (min-width: 992px) and (max-width: 1199.98px) {
   nav .main-menu li {
     margin-right: 10px;
