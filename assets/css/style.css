@@ -665,10 +665,33 @@ nav .main-menu2 li a::before {
   transition: all 0.3s ease-in;
   border-radius: 8px;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.padding-bottom-120 {
+  padding-bottom: 0px;
+}
+.padding-top-200 {
+  padding-top: 30vh;
+}
+.launch-container {
+  min-height: 70vh !important;
+}
+.align-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inauguration-span{
+  font-size: 58px !important;
+}
 .event-btn{
+  padding: 20px 80px;
+  font-size: 25px !important;
   background: linear-gradient(157deg, #e100ff 0%, rgba(127, 0, 255, 0.99608) 100%);
   color: white !important;
-  font-size: 16px;
 }
 
 .event-btn:hover {
