@@ -681,6 +681,22 @@ nav .main-menu2 li a::before {
     border-radius: 10px;
   }
 }
+.abstract-btn{
+  color: #fd424d !important;
+}
+.abstract-btn:hover{
+  background: linear-gradient(157deg, #f86f64 0%, #fd5392fe 100%);
+  color: white !important;
+}
+.event-link{
+  display: flex;
+  justify-content: space-evenly;
+}
+@media only screen and (max-width: 1000px) {
+  .event-link {
+    flex-direction: column;
+  }
+}
 .register-btn {
   background: -webkit-linear-gradient(
     293deg,
