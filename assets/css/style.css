@@ -1820,12 +1820,12 @@ nav .main-menu2 li a::before {
   }
 }
 .counter-area {
-  margin-top: -87px;
+  margin-top: -160px;
   background-color: #fafafa;
 }
 @media (max-width: 991.98px) {
   .counter-area {
-    margin-top: 120px;
+    margin-top: -160px;
   }
 }
 .counter-area .counter_wrapper {
