@@ -664,6 +664,23 @@ nav .main-menu2 li a::before {
   transition: all 0.3s ease-in;
   border-radius: 8px;
 }
+.event-btn{
+  background: linear-gradient(157deg, #e100ff 0%, rgba(127, 0, 255, 0.99608) 100%);
+  color: white !important;
+  font-size: 16px;
+}
+
+.event-btn:hover {
+  background: transparent !important;
+  color: #8100fe !important;
+  transition: all 0.3s ease-in !important;
+}
+@media (max-width: 575.98px) {
+  .event-btn {
+    padding: 8px 25px;
+    border-radius: 10px;
+  }
+}
 .register-btn {
   background: -webkit-linear-gradient(
     293deg,
