@@ -53,6 +53,15 @@ h6 {
   margin-bottom: 0;
   font-weight: 500;
 }
+.ps-heading{
+    font-weight: 700;
+}
+.ps-description-heading{
+    font-weight: 600;
+}
+.ps-q{
+    color: #FD424D;
+}
 p {
   color: #221b68;
   font-size: 16px;
